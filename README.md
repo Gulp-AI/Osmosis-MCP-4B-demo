@@ -1,5 +1,7 @@
 # Osmosis-MCP-4B
 
+## [Blog Post](https://osmosis.ai/blog/applying-rl-mcp)
+
 ## Prerequisites
 
 *   Python 3.x
