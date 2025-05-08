@@ -19,17 +19,7 @@ def init_agent_service():
         'model_server': 'http://localhost:1234/v1',  # api_base
         # 'api_key': 'EMPTY',
     
-        'generate_cfg': {
-            # When using vLLM/SGLang OAI API, pass the parameter of whether to enable thinking mode in this way
-            # 'extra_body': {
-            #     'chat_template_kwargs': {'enable_thinking': False}
-            # },
-    
-            # Add: When the content is `<think>this is the thought</think>this is the answer`
-            # Do not add: When the response has been separated by reasoning_content and content
-            # This parameter will affect the parsing strategy of tool call
-            # 'thought_in_content': True,
-        },
+        'generate_cfg': {},
     }
     tools = [
         {
@@ -129,6 +119,4 @@ def app_gui():
 
 
 if __name__ == '__main__':
-    # test()
-    # app_tui()
     app_gui()
