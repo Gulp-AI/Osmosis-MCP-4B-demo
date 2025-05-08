@@ -31,7 +31,9 @@
     BRAVE_API_KEY="your_brave_api_key"
     GOOGLE_MAPS_API_KEY="your_google_maps_api_key"
     ACCUWEATHER_API_KEY="your_accuweather_api_key"
+    APP_STYLE="gui" # or "tui"
     ```
+    if an api key is not provided, the tool will not be loaded.
     The `main.py` script currently configures the model server URL directly. Ensure `http://localhost:1234/v1` is the correct endpoint for your Qwen model server (this is what lm studio uses).
 
 ## Environment Variables
@@ -41,7 +43,7 @@ The application uses the following environment variables (loaded from a `.env` f
 *   `BRAVE_API_KEY`: Your API key for Brave Search.
 *   `GOOGLE_MAPS_API_KEY`: Your API key for Google Maps.
 *   `ACCUWEATHER_API_KEY`: Your API key for AccuWeather.
-
+*   `APP_STYLE`: 'tui' or 'gui'
 ## Available Tools (MCP Servers)
 
 The agent is configured to use the following tools via MCP:
