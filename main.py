@@ -18,7 +18,7 @@ APP_STYLE = os.getenv('APP_STYLE') # 'tui' or 'gui'
 def init_agent_service():
     llm_cfg = {
         # Use your own model service compatible with OpenAI API by vLLM/SGLang:
-        'model': 'Qwen/Qwen3-4B',
+        'model': 'osmosis-ai/osmosis-mcp-4b',
         'model_server': MODEL_SERVER_URL,  # api_base
         'api_key': MODEL_SERVER_API_KEY,
     
