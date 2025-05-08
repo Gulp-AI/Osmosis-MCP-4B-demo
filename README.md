@@ -3,6 +3,7 @@
 ## Prerequisites
 
 *   Python 3.x
+*   uvx
 *   Access to a model server (e.g., running locally via vLLM/lm studio)
 *   API Keys for:
     *   Brave Search
