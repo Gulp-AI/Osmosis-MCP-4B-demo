@@ -37,6 +37,9 @@
     if an api key is not provided, the tool will not be loaded.
     The `main.py` script currently configures the model server URL directly. Ensure `http://localhost:1234/v1` is the correct endpoint for your Qwen model server (this is what lm studio uses).
 
+4.  **Serve local model:**
+    Use a tool like lm studio to provide a usable endpoint.
+
 ## Environment Variables
 
 The application uses the following environment variables (loaded from a `.env` file):
