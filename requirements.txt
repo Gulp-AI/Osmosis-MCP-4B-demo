@@ -1,0 +1,6 @@
+qwen_agent
+python-dateutil
+dotenv
+qwen-agent[gui]
+mcp
+qwen-agent[code_interpreter]
