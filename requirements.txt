@@ -1,6 +1,6 @@
-qwen_agent
-python-dateutil
-dotenv
+qwen_agent==0.0.22
+python-dateutil==2.9.0.post0
+dotenv==0.9.9
+mcp==1.7.1
 qwen-agent[gui]
-mcp
 qwen-agent[code_interpreter]
