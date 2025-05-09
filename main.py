@@ -104,7 +104,7 @@ def app_gui():
 
     chatbot_config = {
         'prompt.suggestions': [
-            'The old pope, Francis, has died and will now be succeeded by a new Leo XIV. Show me a list of news summaries about the new pope.',
+            'The old pope, Francis, has died and will now be succeeded by a new Leo XIV. Show me a list of news summaries about the new pope with links.',
             'What is the weather in New York City tomorrow? Use the weather tool or brave search to get the forecast.',
             'I usually bike to work from Bushwick to Times Square at 7am. What\'s the best way to get there given tomorrow\'s weather and traffic?',
             'https://github.com/orgs/QwenLM/repositories Extract markdown content of this page, then provide a list of the top 5 repositories with stars, forks, and issues.',
