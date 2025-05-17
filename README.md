@@ -14,13 +14,22 @@
 
 ## Setup & Installation
 
-1.  **Clone the repository (if applicable):**
+0. **Install LM studio [here](https://lmstudio.ai) and use it to run the model from a http endpoint**
+   1. find and download model in discover    
+   <img width="944" alt="image" src="https://github.com/user-attachments/assets/7a379cc3-fe3f-4e4c-bc0f-9f17f753c849" />
+   2. select model to load and load an osmosis model
+   <img width="430" alt="image" src="https://github.com/user-attachments/assets/3d32833d-dcae-4f91-bb3f-47dd23e0570c" />
+   3. start the web server with model loaded
+   <img width="1130" alt="image" src="https://github.com/user-attachments/assets/51d4fd79-75dc-4808-8dd7-3b9f8c43ff77" />
+
+
+2.  **Clone the repository (if applicable):**
     ```bash
-    # git clone https://github.com/Gulp-AI/Osmosis-MCP-4B-demo
-    # cd Osmosis-MCP-4B-demo
+    git clone https://github.com/Gulp-AI/Osmosis-MCP-4B-demo
+    cd Osmosis-MCP-4B-demo
     ```
 
-2.  **Install dependencies:**
+3.  **Install dependencies:**
     It's recommended to use a virtual environment.
     ```bash
     python -m venv .venv
@@ -28,7 +37,7 @@
     pip install -r requirements.txt
     ```
 
-3.  **Set up Environment Variables:**
+4.  **Set up Environment Variables:**
     Create a `.env` file in the root of the project directory and add your API keys and model server configuration:
     ```env
     BRAVE_API_KEY="your_brave_api_key"
@@ -39,7 +48,7 @@
     if an api key is not provided, the tool will not be loaded.
     The `main.py` script currently configures the model server URL directly. Ensure `http://localhost:1234/v1` is the correct endpoint for your Qwen model server (this is what lm studio uses).
 
-4.  **Serve local model:**
+5.  **Serve local model:**
     Use a tool like lm studio to provide a usable endpoint.
 
 ## Environment Variables
