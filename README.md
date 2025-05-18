@@ -46,6 +46,7 @@
     APP_STYLE="gui" # or "tui"
     ```
     if an api key is not provided, the tool will not be loaded.
+    If `APP_STYLE` is omitted, the application defaults to GUI mode.
     The `main.py` script currently configures the model server URL directly. Ensure `http://localhost:1234/v1` is the correct endpoint for your Qwen model server (this is what lm studio uses).
 
 5.  **Serve local model:**
